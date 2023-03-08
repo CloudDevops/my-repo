@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: Pod
-metadata:
-  name: hello-argocd
-spec:
-  containers:
-  - name: hello-argocd
-    image: gcr.io/google-samples/hello-app:1.0
-#    command: ["sh", "-c", "while true; do echo 'Hello, Argoed CD!'; sleep 1; done"]
