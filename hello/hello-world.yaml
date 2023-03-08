@@ -5,5 +5,5 @@ metadata:
 spec:
   containers:
   - name: hello-argocd
-    image: alpine
-    command: ["sh", "-c", "while true; do echo 'Hello, Argoed CD!'; sleep 1; done"]
+    image: gcr.io/google-samples/hello-app:1.0
+#    command: ["sh", "-c", "while true; do echo 'Hello, Argoed CD!'; sleep 1; done"]
