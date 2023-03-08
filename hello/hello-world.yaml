@@ -1,9 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: hello-world1
+  name: hello-world
 spec:
   containers:
   - name: echo
-    image: busybox
-    args: ['echo', 'Hello, Worlds!']
+    image: alpine
+    command: ['echo']
+    args: ['Hello, World!']
