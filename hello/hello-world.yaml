@@ -7,4 +7,4 @@ spec:
   - name: echo
     image: alpine
     command: ["/bin/sh"]
-    args: ["-c", "while true; do echo 'Hello, World!'; sleep 10; done"]
+    args: ["-c", "while true; do echo 'Hello, Worlds!'; sleep 10; done"]
