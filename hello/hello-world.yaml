@@ -5,6 +5,5 @@ metadata:
 spec:
   containers:
   - name: echo
-    image: alpine
-    command: ['echo']
-    args: ['Hello, World!']
+    image: busybox
+    command: ['sh', '-c', 'while true; do echo "Hello, World!"; sleep 10000; done']
